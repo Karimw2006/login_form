@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+body{
+    background: #282c43;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.login .loginform{
+    width: 320px;
+    height: 420px;
+    padding: 10px;
+    background: #61dafb;
+    border-radius: 10px;
+}
+.login .loginform h1{
+    margin: 10px 90px;
+}
+.login .loginform p{
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+}
+.login .loginform input[type="text"],input[type="password"]{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #282c43;
+    color: #282c43;
+    height: 50px;
+}
+.login .loginform input[type="submit"]{
+    display: flex;
+    margin: 10px 25px;
+    width: 220px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #282c43;
+    border: 1px solid #282c43;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+.login .loginform input[type="submit"]:hover{
+    background-color: #282c43;
+    color: #61dafb;
+}
